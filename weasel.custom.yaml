@@ -1,3 +1,5 @@
+# Make your rime input method look like the default skin of Sogou input method
+# 让你的rime输入法看起来像搜狗输入法的默认皮肤
 customization:
   distribution_code_name: Weasel
   distribution_version: 0.17.4
