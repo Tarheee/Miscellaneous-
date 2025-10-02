@@ -1,0 +1,65 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.17.4
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Thu Oct  2 15:12:16 2025"
+  rime_version: 1.13.1
+
+patch:
+  style/font_point: 16
+  style/horizontal: true
+  style/inline_preedit: false
+  style/layout/candidate_spacing: 28 # 候选字间隔
+  style/layout/margin_y: 5
+
+  # 应用新的配色方案
+  style/color_scheme: sougou_style
+
+  # 定义配色方案
+  "preset_color_schemes/sougou_style":
+    name: "sougou"
+    author: "tarhe"
+    text_color: 0xffffff
+    back_color: 0xffffff
+    border_color: 0xCCCCCC
+    label_color: 0x5c758f
+    hilited_text_color: 0xD16C13
+    hilited_back_color: 0xffffff
+    candidate_text_color: 0x40434B
+    comment_text_color: 0x5c758f
+    hilited_candidate_text_color: 0x2d0dff
+    hilited_comment_text_color: 0xffffff
+    hilited_candidate_back_color: 0xffffff
+# "preset_color_schemes/xiluo":
+#     name: xiluo
+#     author: "Jankin <jhtt@gmail.com>
+#     back_color: 0xFFFFFF           # 底色
+#     border_color: 0xE2E2E2         # 边框颜色，与底色相同则为无边框的效果
+#     text_color: 0x424242           # 内选区域文字颜色0x424242   0xFFFFFF
+#     hilited_text_color: 0x000000   # 内选区域字母颜色
+#     hilited_back_color: 0xFFFFFF   # 内选区域字母底色
+#     hilited_candidate_back_color: 0xf9cb8b  #激活候选项的文字底色
+# # 0xe7a23f  0xFFD6AC 0xffcf9a  0xd77800 0xb76a00  0xdaa45a 0xCE7539
+# # 0xdaa45a 0xED9564 0xFFF0E4 0xffcc33 0xb76a00  0xe89f00   0xED9564
+#     hilited_candidate_text_color: 0x000000  #激活候选项的文字颜色0xFFFFFF
+#     candidate_text_color: 0x000000           # 其他候选项文字颜色
+#     comment_text_color: 0xbdaead  #拼音等提示文字颜色e4dfd7  999999  0xb7a091
+#     label_color: 0xcac9c8    #序号颜色dad4cb  0xcac9c8
+
+#   "style/color_scheme": xiluo      #配色方案
+#   "style/font_face": "汉仪正圆-55W" #字体
+#   "style/font_point": 14           #字体大小
+#   "style/label_font_face": "Fira Code"
+#   "style/label_font_point": 28
+#   "style/inline_preedit": true     # 嵌入式候选窗单行显示
+#   "style/horizontal": true         #候选横排
+#   "style/display_tray_icon" : true #显示托盘图标，建议false，否则出现两个图标
+#   "style/layout/border": 0
+#   "style/layout/border_width": 0
+#   "style/layout/candidate_spacing": 28  # 候选字间隔
+#   "style/layout/hilite_padding": 11    #候选字背景色色块高度 若想候选字背景色块无边界填充候选框，仅需其高度和候选字上下边距一致即可
+#   "style/layout/hilite_spacing": 3     # 序号和候选字之间的间隔
+#   "style/layout/margin_x": 10       #候选字左右边距
+#   "style/layout/margin_y": 10       #候选字上下边距
+#   "style/layout/round_corner": 25    #候选字背景色块圆角幅度
+#   "style/layout/spacing": 10
